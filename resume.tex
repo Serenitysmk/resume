@@ -93,85 +93,99 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://sourabhbajaj.com/}{\Large \textbf{Mengkun She}}} & Email: \href{mailto:mengkun.she@gmail.com}{mengkun.she@gmail.com}\\
-  \href{https://serenitysmk.github.io}{https://serenitysmk.github.io} & Mobile: \href{tel:+49 17630148035}{+49 17630148035} \\
+\textbf{Name}: \textbf{Mengkun She} \\
+\textbf{Date of Birth}: 12.08.1995 \\
+\textbf{Place of Birth}: Yunnan, China\\
+\textbf{Nationality}: Chinese
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
+    \resumeSubheading
+  {Chongqing University}{Chongqing, China}
+  {Bachelor of Science}{Sep 2013 -- June 2017}
+	  \resumeItemListStart
+	  	\resumeItem{Course of Study}{Surveying and Mapping Engineering (Geo-informatics)}
+	  	\resumeItem{Number of Semesters}{8}
+      \resumeItemListEnd
+      
+  \resumeSubheading
+ {Chongqing University}{Chongqing, China}
+ {Master of Science}{Sep 2017 -- June 2020}
+ \resumeItemListStart
+ \resumeItem{Course of Study}{Surveying and Mapping Engineering (Geo-informatics)}
+ \resumeItem{Number of Semesters}{6}
+ \resumeItemListEnd
   	\resumeSubheading
   	{Christian-Albrechts-Universität zu Kiel}{Kiel, Germany}{Ph.D. in Computer Science}{Nov 2020 -- Present}
   	\resumeItemListStart
-  		\resumeItem{Topic}{Underwater Refractive Camera Calibration and 3D Scene Reconstruction}
-  		\resumeItem{Advisor \& Reference}{\href{https://www.marine.informatik.uni-kiel.de/}{Prof. Dr. -Ing. Kevin K\"oser}}
+  		\resumeItem{Course of Study}{Computer Science}
+  		\resumeItem{Number of Semesters}{9}
+  		\resumeItem{Supervisor}{Prof. Kevin K\"oser}
+  		\resumeItem{Title of Dissertation}{Underwater Refractive Camera Calibration and 3D Scene Reconstruction}
   	\resumeItemListEnd
-    \resumeSubheading
-      {Chongqing University}{Chongqing, China}
-      {Master of Science in Surveying and Mapping Engineering (Geo-informatics)}{Sep 2017 -- June 2020}
-    \resumeSubheading
-      {Chongqing University}{Chongqing, China}
-      {Bachelor of Surveying and Mapping Engineering (Geo-informatics)}{Sep 2013 -- June 2017}
+
   \resumeSubHeadingListEnd
 
 
-%-----------EXPERIENCE-----------------
-\section{Experience}
-  \resumeSubHeadingListStart
-  
-   \resumeSubheading
-  	{Christian-Albrechts-Universität zu Kiel}{Kiel, Germany}
-  	{Computer Vision Research Assistant at Marine Data Science Group (MDS)}{July 2023 -- Present}
-  	\resumeItemListStart
-
-		\resumeItem{Open-Source C++ Underwater Mapping Software}{Integrate the refractive camera models and refractive SfM into the popular C++ based open-source 3D reconstruction software COLMAP. (project link: \href{https://cau-git.rz.uni-kiel.de/inf-ag-koeser/colmap_underwater}{gitlab:colmap-underwater})}
-	  	\resumeItem{Underwater Neural Radiance Field}{Learning a medium- and light-independent scene representation by modeling the camera-attached co-moving light source with spatial- and surface normal-dependent neural network (paper: [1]).}
-  		\resumeItem{Tiny- and Semi-transparent Object Reconstruction}{Learning a volumetric representation for tiny- and semi-transparent objects using differentiable rendering and neural radiance field (paper: [8]).}
-  		\resumeItem{Teaching Assistant - Probabilistic Robotics (Winter 2023)}{Responsible for the tutorial sessions and the final exam.}
-  \resumeItemListEnd
-
-    \resumeSubheading
-      {Helmholtz Centre for Ocean Research, Kiel, GEOMAR}{Kiel, Germany}
-      {Computer Vision Research Assistant at Oceanic Machine Vision Group (OMV)}{Nov 2020 -- June 2023}
-      \resumeItemListStart
-        \resumeItem{Refractive Camera Models and Calibration}
-          {Derive and implement novel camera models for underwater camera systems to account for geometric distortion induced by refraction (paper [5, 7]).}
-        \resumeItem{Refractive Image-based 3D Reconstruction}
-        {Research and develop a refractive structure-from-motion (SfM) approach for image-based 3D reconstruction from underwater imagery (paper [2]).}
-        \resumeItem{Sensor Fusion with Navigation}{Develop a loosely-coupled visual-navigation fusion strategy for mapping a large-scale of seafloor (paper: [3]).}
-        \resumeItem{Macro-lens Camera Calibration}{Derive a novel affine transform camera model for the focus-stacked image and develop a C++ based calibration approach for macro-lens camera system (paper: [6]).}
-      \resumeItemListEnd
-      
-    \resumeSubheading
-      {Helmholtz Centre for Ocean Research, Kiel, GEOMAR}{Kiel, Germany}
-      {Internship \& Master Thesis}{Jan 2019 -- Jan 2020}
-      \resumeItemListStart
-        \resumeItem{BubbleBox Project}
-          {Develop a synchronized high-speed (80 Hz) machine vision stereo camera system. Develop a C++ based software to measure and quantify the volumes of released gas bubbles using image processing and stereo vision techniques.}
-      \resumeItemListEnd
-      
-      \resumeSubheading
-      {Computer Vision Freelancer}{Kiel, Germany}
-      {Working as a freelancer to offer small-to-medium size computer vision services and solutions}{2021 -- 2024}
-      \resumeItemListStart
-      	\resumeItem{Localizing Robot Arm End Effector}{Develop a synchronized 4-camera system to track and localize the end effector of a robot arm in 3D using AruCo maker.}
-      	\resumeItem{Intrinsic \& Extrinsic Calibration of a Camera Array}{Develop a calibration method to calibrate the intrinsic and relative extrinsic parameters of a 26-cameras camera array for medical human-body scanning.}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-
-%-----------Skills-----------------
-\section{Skills}
-  \resumeSubHeadingListStart
-  	\resumeItem{Skill Set}{Camera Calibration; 3D Reconstruction; SfM / SLAM; Estimation and Optimization; Representation Learning;}
-    \resumeSubItem{Programming \& Tools}
-      {C++, CMake, Python, PyTorch, OpenCV, Ceres-Solver, Linux, Git, ROS (basic), LaTex}
-    \resumeSubItem{Scientific Skills}
-      {Problem Solving; Modeling; Scientific Drawing and Writing.}
-    \resumeSubItem{Communication}
-      {English (proficient); German (A2); Chinese (native)}
-  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------x
+%\section{Experience}
+%  \resumeSubHeadingListStart
+%  
+%   \resumeSubheading
+%  	{Christian-Albrechts-Universität zu Kiel}{Kiel, Germany}
+%  	{Computer Vision Research Assistant at Marine Data Science Group (MDS)}{July 2023 -- Present}
+%  	\resumeItemListStart
+%
+%		\resumeItem{Open-Source C++ Underwater Mapping Software}{Integrate the refractive camera models and refractive SfM into the popular C++ based open-source 3D reconstruction software COLMAP. (project link: \href{https://cau-git.rz.uni-kiel.de/inf-ag-koeser/colmap_underwater}{gitlab:colmap-underwater})}
+%	  	\resumeItem{Underwater Neural Radiance Field}{Learning a medium- and light-independent scene representation by modeling the camera-attached co-moving light source with spatial- and surface normal-dependent neural network (paper: [1]).}
+%  		\resumeItem{Tiny- and Semi-transparent Object Reconstruction}{Learning a volumetric representation for tiny- and semi-transparent objects using differentiable rendering and neural radiance field (paper: [8]).}
+%  		\resumeItem{Teaching Assistant - Probabilistic Robotics (Winter 2023)}{Responsible for the tutorial sessions and the final exam.}
+%  \resumeItemListEnd
+%
+%    \resumeSubheading
+%      {Helmholtz Centre for Ocean Research, Kiel, GEOMAR}{Kiel, Germany}
+%      {Computer Vision Research Assistant at Oceanic Machine Vision Group (OMV)}{Nov 2020 -- June 2023}
+%      \resumeItemListStart
+%        \resumeItem{Refractive Camera Models and Calibration}
+%          {Derive and implement novel camera models for underwater camera systems to account for geometric distortion induced by refraction (paper [5, 7]).}
+%        \resumeItem{Refractive Image-based 3D Reconstruction}
+%        {Research and develop a refractive structure-from-motion (SfM) approach for image-based 3D reconstruction from underwater imagery (paper [2]).}
+%        \resumeItem{Sensor Fusion with Navigation}{Develop a loosely-coupled visual-navigation fusion strategy for mapping a large-scale of seafloor (paper: [3]).}
+%        \resumeItem{Macro-lens Camera Calibration}{Derive a novel affine transform camera model for the focus-stacked image and develop a C++ based calibration approach for macro-lens camera system (paper: [6]).}
+%      \resumeItemListEnd
+%      
+%    \resumeSubheading
+%      {Helmholtz Centre for Ocean Research, Kiel, GEOMAR}{Kiel, Germany}
+%      {Internship \& Master Thesis}{Jan 2019 -- Jan 2020}
+%      \resumeItemListStart
+%        \resumeItem{BubbleBox Project}
+%          {Develop a synchronized high-speed (80 Hz) machine vision stereo camera system. Develop a C++ based software to measure and quantify the volumes of released gas bubbles using image processing and stereo vision techniques.}
+%      \resumeItemListEnd
+%      
+%      \resumeSubheading
+%      {Computer Vision Freelancer}{Kiel, Germany}
+%      {Working as a freelancer to offer small-to-medium size computer vision services and solutions}{2021 -- 2024}
+%      \resumeItemListStart
+%      	\resumeItem{Localizing Robot Arm End Effector}{Develop a synchronized 4-camera system to track and localize the end effector of a robot arm in 3D using AruCo maker.}
+%      	\resumeItem{Intrinsic \& Extrinsic Calibration of a Camera Array}{Develop a calibration method to calibrate the intrinsic and relative extrinsic parameters of a 26-cameras camera array for medical human-body scanning.}
+%      \resumeItemListEnd
+%  \resumeSubHeadingListEnd
+%
+%
+%%-----------Skills-----------------
+%\section{Skills}
+%  \resumeSubHeadingListStart
+%  	\resumeItem{Skill Set}{Camera Calibration; 3D Reconstruction; SfM / SLAM; Estimation and Optimization; Representation Learning;}
+%    \resumeSubItem{Programming \& Tools}
+%      {C++, CMake, Python, PyTorch, OpenCV, Ceres-Solver, Linux, Git, ROS (basic), LaTex}
+%    \resumeSubItem{Scientific Skills}
+%      {Problem Solving; Modeling; Scientific Drawing and Writing.}
+%    \resumeSubItem{Communication}
+%      {English (proficient); German (A2); Chinese (native)}
+%  \resumeSubHeadingListEnd
 
 \section{Certificate}
 \resumeSubHeadingListStart
@@ -188,7 +202,7 @@
 
   
 \section{Selected Publications}
-18 publications listed on Google Scholar, with a total of 199 citations and an H-index of 8. Below are selected publications:
+18 publications listed on Google Scholar, with a total of 223 citations and an H-index of 8. Below are selected publications:
  \resumeSubHeadingListStart
  \resumeItem{[1]}{\textbf{M. She}, F. Seegr\"aber, D. Nakath, P. Sch\"ontag, K. K\"oser. Relative Illumination Fields: Learning Medium and Light Independent Underwater Scenes. (Submitted to \textit{CVPR, 2025})}
  \resumeItem{[2]}{\textbf{M. She}, F. Seegr\"aber, D. Nakath, K. K\"oser. Refractive COLMAP: Refractive Structure-from-Motion Revisited. In \textit{IROS, 2024} (\textbf{Oral})}
